@@ -1,13 +1,11 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Nav from './components/navigation';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">      
-        <h1>FamilyApp</h1>
-        <p>Family app</p>
-      </header>
+    <div className="familyApp">   
+      <Nav/>
     </div>
   );
 }
